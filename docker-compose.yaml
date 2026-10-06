@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: identitycore-postgres
+    environment:
+      POSTGRES_DB: identitycore
+      POSTGRES_USER: identitycore
+      POSTGRES_PASSWORD: identitycore
+    ports:
+      - "5432:5432"
+    volumes:
+      - identitycore_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U identitycore"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: identitycore-redis
+    ports:
+      - "6380:6379"
+    volumes:
+      - identitycore_redis_data:/data
+
+volumes:
+  identitycore_pg_data:
+  identitycore_redis_data:

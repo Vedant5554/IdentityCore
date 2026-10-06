@@ -1,0 +1,100 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :resolveMainClassName
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v4.1.1)[0;39m
+
+[2m2026-09-27T22:14:01.495+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mc.e.i.IdentityCoreApplication           [0;39m [2m:[0;39m Starting IdentityCoreApplication using Java 21.0.11 with PID 28089 (/home/ved/Developer/UberSpringBootProject/IdentityCore/build/classes/java/main started by ved in /home/ved/Developer/UberSpringBootProject/IdentityCore)
+[2m2026-09-27T22:14:01.496+05:30[0;39m [32mDEBUG[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mc.e.i.IdentityCoreApplication           [0;39m [2m:[0;39m Running with Spring Boot v4.1.1, Spring v7.0.9
+[2m2026-09-27T22:14:01.497+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mc.e.i.IdentityCoreApplication           [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2026-09-27T22:14:01.860+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+[2m2026-09-27T22:14:01.861+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2026-09-27T22:14:01.919+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+[2m2026-09-27T22:14:01.939+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+[2m2026-09-27T22:14:01.939+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2026-09-27T22:14:01.946+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.RepositoryConfigurationExtensionSupport[0;39m [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.identitycore.repository.AuditLogRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+[2m2026-09-27T22:14:01.946+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.RepositoryConfigurationExtensionSupport[0;39m [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.identitycore.repository.RefreshTokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+[2m2026-09-27T22:14:01.947+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.RepositoryConfigurationExtensionSupport[0;39m [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.identitycore.repository.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+[2m2026-09-27T22:14:01.947+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.RepositoryConfigurationExtensionSupport[0;39m [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.identitycore.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+[2m2026-09-27T22:14:01.947+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[2m2026-09-27T22:14:02.321+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.s.boot.tomcat.TomcatWebServer         [0;39m [2m:[0;39m Tomcat initialized with port 8082 (http)
+[2m2026-09-27T22:14:02.330+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-09-27T22:14:02.331+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/11.0.24]
+[2m2026-09-27T22:14:02.352+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mb.w.c.s.WebApplicationContextInitializer[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 833 ms
+[2m2026-09-27T22:14:02.600+05:30[0;39m [32mDEBUG[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mc.e.i.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter 'jwtAuthenticationFilter' configured for use
+[2m2026-09-27T22:14:02.600+05:30[0;39m [32mDEBUG[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mc.e.i.security.RateLimitingFilter       [0;39m [2m:[0;39m Filter 'rateLimitingFilter' configured for use
+[2m2026-09-27T22:14:02.700+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2026-09-27T22:14:02.770+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e26040f
+[2m2026-09-27T22:14:02.771+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2026-09-27T22:14:02.784+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36morg.flywaydb.core.FlywayExecutor        [0;39m [2m:[0;39m Database: jdbc:postgresql://localhost:5432/identitycore (PostgreSQL 16.15)
+[2m2026-09-27T22:14:02.822+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.f.core.internal.command.DbValidate    [0;39m [2m:[0;39m Successfully validated 6 migrations (execution time 00:00.016s)
+[2m2026-09-27T22:14:02.847+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.f.core.internal.command.DbMigrate     [0;39m [2m:[0;39m Current version of schema "public": 6
+[2m2026-09-27T22:14:02.849+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.f.core.internal.command.DbMigrate     [0;39m [2m:[0;39m Schema "public" is up to date. No migration necessary.
+[2m2026-09-27T22:14:02.902+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36morg.hibernate.orm.jpa                   [0;39m [2m:[0;39m HHH008540: Processing PersistenceUnitInfo [name: default]
+[2m2026-09-27T22:14:02.925+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36morg.hibernate.orm.core                  [0;39m [2m:[0;39m HHH000001: Hibernate ORM core version 7.4.5.Final
+[2m2026-09-27T22:14:03.114+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2026-09-27T22:14:03.170+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/identitycore]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: identitycore/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2026-09-27T22:14:03.690+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36morg.hibernate.orm.core                  [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2026-09-27T22:14:03.720+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-09-27T22:14:03.766+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.s.d.j.r.query.QueryEnhancerFactories  [0;39m [2m:[0;39m Hibernate is in classpath; If applicable, HQL parser will be used.
+[2m2026-09-27T22:14:04.155+05:30[0;39m [33m WARN[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2026-09-27T22:14:04.603+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 3 endpoints beneath base path '/actuator'
+[2m2026-09-27T22:14:04.650+05:30[0;39m [33m WARN[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2m2026-09-27T22:14:04.652+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-09-27T22:14:04.653+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2026-09-27T22:14:04.655+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2026-09-27T22:14:04.668+05:30[0;39m [32m INFO[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2m2026-09-27T22:14:04.701+05:30[0;39m [31mERROR[0;39m [35m28089[0;39m [2m--- [identitycore] [           main] [0;39m[36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+
+> Task :bootRun FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun' (registered by plugin 'org.springframework.boot').
+> Process 'command '/home/ved/.jdks/ms-21.0.11/bin/java'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+4 actionable tasks: 2 executed, 2 up-to-date
